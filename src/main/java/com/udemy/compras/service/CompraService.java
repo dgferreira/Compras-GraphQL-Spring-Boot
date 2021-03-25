@@ -1,9 +1,11 @@
-package com.udemy.compras.domain;
+package com.udemy.compras.service;
 
+import com.udemy.compras.domain.Cliente;
+import com.udemy.compras.domain.Compra;
+import com.udemy.compras.repository.CompraRepository;
 import com.udemy.compras.graphql.dto.CompraResumo;
 import com.udemy.compras.graphql.exceptions.DomainException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

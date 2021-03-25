@@ -2,6 +2,8 @@ package com.udemy.compras.graphql;
 
 import com.coxautodev.graphql.tools.GraphQLResolver;
 import com.udemy.compras.domain.*;
+import com.udemy.compras.service.ClienteService;
+import com.udemy.compras.service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

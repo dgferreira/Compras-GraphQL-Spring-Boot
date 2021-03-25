@@ -1,7 +1,8 @@
-package com.udemy.compras.domain;
+package com.udemy.compras.service;
 
+import com.udemy.compras.domain.Cliente;
+import com.udemy.compras.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;

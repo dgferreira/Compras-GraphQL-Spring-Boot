@@ -1,5 +1,7 @@
-package com.udemy.compras.domain;
+package com.udemy.compras.repository;
 
+import com.udemy.compras.domain.Cliente;
+import com.udemy.compras.domain.Compra;
 import com.udemy.compras.graphql.dto.CompraResumo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
