@@ -1,4 +1,4 @@
-package com.udemy.compras.graphql.exceptions;
+package com.udemy.compras.exceptions;
 
 public class DomainException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.udemy.compras.graphql.exceptions;
+package com.udemy.compras.exceptions;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import graphql.ExceptionWhileDataFetching;

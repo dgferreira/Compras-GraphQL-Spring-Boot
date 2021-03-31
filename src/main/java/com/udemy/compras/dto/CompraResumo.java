@@ -1,4 +1,4 @@
-package com.udemy.compras.graphql.dto;
+package com.udemy.compras.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
