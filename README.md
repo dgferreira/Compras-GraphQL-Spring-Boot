@@ -19,7 +19,7 @@ Aqui estão as tecnologias utilizadas neste projeto:
 * JUnit Test
  
  
-## Serviços utilizados
+## Ferramentas utilizadas
  
 * IntelliJ
 * MySQL Workbench
@@ -33,7 +33,7 @@ Aqui estão as tecnologias utilizadas neste projeto:
 Você pode utilizar a base de dados já configurada no application.properties ou se preferir utilizar localmente, basta criar uma nova database e configurar no application-dev.properties. </br>
 Para utilizar localmente você deve rodar a classe principal ComprasApplication.java, não esqueça de que em Run/Debug Configurations em Active profiles você deve colocar a palavra "dev" para que o IntelliJ possa reconhecer que é do application-dev.properties que ele utilizará as configurações (caso você não informe este profile, ele irá utilizar as configurações do application.properties). </br>
 Rode os scripts de creates.sql e inserts.sql que estão na pasta "banco". </br>
-Pronto. Seu projeto já está de pé. Basta agora acessar a url: localhost:5000/playground (ou graphiql)
+Pronto. Seu projeto já está de pé. Basta agora acessar a url: [localhost:5000/playground](http://localhost:5000/playground) ou [localhost:5000/graphiql](http://localhost:5000/graphiql)
  
  
 ## Features
