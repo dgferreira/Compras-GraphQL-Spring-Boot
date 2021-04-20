@@ -1,8 +1,11 @@
 scalar Date
 
+#Comentário Teste na Query principal para ilustrar que é possível fazer comentários e exibi-los na Doc
 type Query {
-    hello:String
+    #Comentário Teste no método hello
+    hello:String!
 
+    #Comentário Teste no método soma
     soma(a:Int, b:Int):Int
 }
 
